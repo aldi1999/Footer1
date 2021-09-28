@@ -13,3 +13,10 @@ list-style: none;
 padding-left: 0;
 font-size: 12px;
 }
+.judul_footer{
+    padding-bottom: auto;
+    padding-top: 100px;
+}
+a i{
+    color: white;
+}
