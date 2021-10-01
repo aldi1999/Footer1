@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>News</title>
+    <link rel="stylesheet" href="bootstrap5.1.1/css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.5.0/font/bootstrap-icons.css">
+    <script src="bootstrap5.1.1/js/bootstrap.bundle.min.js"></script>
+</head>
+<body>
+    <!--Awal section news-->
+    <Section>
+        <div class="container-fluid" style="background-color: rgba(229, 229, 229, 1.00); opacity: 0.7;">
+            <div class="row text-capitalize">
+                <div class="col-8 col-offset-1" style="padding-left: 100px;">
+                    <div class=""><!--Untuk card atau margin-->
+                        <div class="card-body">
+                            <div class="content-date text-grey-dark"><i class="far fa-clock mr-2"></i><?php echo $date ?></div>
+                            <h4 class="content-title mb-4">This is news</h4>
+                            <p class="content-summary mb-2">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Possimus, explicabo totam delectus consequatur nulla, assumenda odio beatae veritatis soluta quasi natus ipsa repudiandae distinctio quam exercitationem dolore, maiores cumque sed!</p>
+                            <div class="botton"><a class="btn" id="text-bottom"href="<?php echo SWB.'index.php?p='.$path ?>">Read more</a></div>
+                        </div>
+                    </div>
+                    <div class=""><!--Untuk card atau margin-->
+                        <div class="card-body">
+                            <div class="content-date text-grey-dark"><i class="far fa-clock mr-2"></i><?php echo $date ?></div>
+                            <h4 class="content-title mb-4">This is news</h4>
+                            <p class="content-summary mb-2">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Possimus, explicabo totam delectus consequatur nulla, assumenda odio beatae veritatis soluta quasi natus ipsa repudiandae distinctio quam exercitationem dolore, maiores cumque sed!</p>
+                            <div class="botton"><a class="btn" id="text-bottom" href="<?php echo SWB.'index.php?p='.$path ?>">Read more</a></div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </Section>
+    <!--Akhir section news-->
+</body>
+</html>

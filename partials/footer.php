@@ -1,31 +1,14 @@
-<!doctype html>
-<html lang="en">
-  <head>
-  	<title>footer2</title>
-    <meta charset="utf-8">
-		<link rel="stylesheet" href="bootstrap5.1.1/css/bootstrap.min.css">
-    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.5.0/font/bootstrap-icons.css">
-  </head>
-  <body>
-    <script src="bootstrap5.1.1/js/bootstrap.bundle.min.js"></script>
-
-    <div class="container">
-      <div class="row col-300" style="padding-bottom: 200%;">
-        ini body
-      </div>
-    </div>
-  </body>
-
-  <footer>
-<div class="container-fluid text-white w-100 p-4" style="background-color: #042351;">
+<footer>
+<div class="container-fluid text-white w-1 p-4" style="background-color: #042351;">
   <div class="row">
-  <div class="col-auto icon">
-    <img src="img/LOGO_FOOTER.png" width="230px" leght="50px"alt="logo footer">
+  <div id="logo-footer" class="col-auto justify-content-center" style="padding-left: 50px; padding-right: 50px;">
+    <img src="template/bootstrap4/img/LOGO_FOOTER.png" width="250px;" leght="100px;" style="float:middle">
   </div>
   <div class="col-sm judul_footer text-uppercase">
     kontak
+    <p></p>
     <div class="row" style="font-size: 15px">
-      <div class="col-5 text-lowercase">telpn
+      <div class="col-5 text-lowercase">telpon
       </div>
       <div class="col-sm">: 0541-748511 / 0541-6524168</div>
   </div>
@@ -37,16 +20,18 @@
 <div class="row" style="font-size: 15px">
   <div class="col-5 text-lowercase">Email
   </div>
-  <div class="col-sm text-lowercase">:<a href="perpustakaan@umkt.ac.id"> perpustakaan@umkt.ac.id</a></div>
+  <div id="bawah" class="col-sm text-lowercase" style="margin:none">:<a href="perpustakaan@umkt.ac.id"> perpustakaan@umkt.ac.id</a></div>
 </div>
   </div>
   <div class="col-sm judul_footer text-uppercase">
     alamat
-    <div class="col-auto text-capitalize" style="font-size: 15px">Universitas muhammadiyah Kalimantan Timur</div>
+    <p></p>
+    <div class="col-auto text-capitalize" style="font-size: 15px">Kampus 1 Universitas muhammadiyah Kalimantan Timur</div>
     <div class="col-auto text-capitalize" style="font-size: 15px">Jl. Ir. H. Juanda No 15 Samarinda</div>
+    <div class="col-auto text-capitalize" style="font-size: 15px">Kalimantan Timur</div>    
+    
     <div>
         <br>Follow us
-
     </div>
     
     <div class="col-auto text-capitalize" style="font-size: 25px">
@@ -58,6 +43,7 @@
   </div>
   <div class="col-sm judul_footer text-uppercase">
     jam pelayanan
+    <p></p>
     <div class="row" style="font-size: 15px">
       <div class="col-5 text-capitalize">Senin-Sabtu
       </div>
@@ -77,7 +63,7 @@
 <div>
   Selengkapnya
   <p>
-    <a href='https://www.symptoma.cn/zh/info/covid-19#info'>SARS-CoV-2</a> <script type='text/javascript' src='https://www.freevisitorcounters.com/auth.php?id=3555ea41641b9b6a06ed0eeaf1949a23de57c7ee'></script>
+    <script type='text/javascript' src='https://www.freevisitorcounters.com/auth.php?id=3555ea41641b9b6a06ed0eeaf1949a23de57c7ee'></script>
     <script type="text/javascript" src="https://www.freevisitorcounters.com/en/home/counter/871555/t/6"></script>
   </p>
 </div>
@@ -88,4 +74,3 @@
   <div class="row text-white"> <p class="text-center">&copy;<script>document.write(new Date().getFullYear());</script> Universitas Muhammadiyah Kalimantan Timur | Dikembangkan oleh Sistem Informasi Lib.UMKT</p></div>
 </div>
   </footer>
-</html>
